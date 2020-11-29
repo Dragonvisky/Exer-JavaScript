@@ -1,0 +1,38 @@
+<script>
+
+		let peso = prompt('Digite o seu peso.');
+		let altura = prompt('Digite a altura. Coleque o ponto para decimais');
+		
+		let quadrado = altura * altura;
+				
+		let IMC = peso / quadrado;
+		
+		
+		if(IMC<18.5)
+			{
+				alert("Você está magro.");
+			}
+
+		else if(IMC>=18.5 && IMC<24.9)
+			{
+				alert("Você está com peso normal.");
+			}
+
+		else if(IMC>=25 && IMC<29.9) 
+			{
+				alert("Você está com sobre pesoe.");
+			}
+
+		else if(IMC>=30 && IMC<39.9) 
+			{
+				alert("Você está com obesidade.");
+			}
+
+		else if (IMC>40)
+			{
+				alert("Você estácom obesidade grave.");
+			}
+		
+
+
+</script>
