@@ -1,0 +1,20 @@
+<script>
+
+	let entrada_das_idades = [];
+	let quantidade_idades_armazenada = 5;
+	let total = 0;
+	
+	alert ("Prezado usuário será solicitado para digitar 5 idades.")
+	
+	for (let x=0; x<quantidade_idades_armazenada; x++)	{
+	
+	entrada_das_idades[x] = Number(prompt ("Digite a " + (x+1)+"º idade diferente."));
+	total = total + entrada_das_idades[x];
+	}
+	let media = total / quantidade_idades_armazenada
+	
+	alert("A media das idades fornecidas são " +(media));
+	
+	
+
+</script>
